@@ -1,5 +1,5 @@
 ## #everydays by zahinz
-[view project here](https://zahinz.github.io/everydays-dribblecard/)
+[view project here](https://zahinz.github.io/uiuxeverydays-dribblecard/)
 
 ### #1
 * Inspiration : Dribble cards
