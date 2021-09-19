@@ -23,6 +23,25 @@ html body {
     justify-content: center;
 }
 
+.btn-solid a {
+    background-color: #313131;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #313131;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    transition: all 300ms;
+}
+
+.btn-solid a:hover {
+    background-color: white;
+    color: #5c5c5c;
+}
+
+
 
 /* ID TAGS */
 
@@ -83,7 +102,7 @@ html body {
 }
 
 #sidebar .container .details ul{
-    height: 200px;
+    height: 250px;
     /* background-color: red; */
     display: flex;
     flex-direction: column;
@@ -92,16 +111,25 @@ html body {
 
 #sidebar .container .details ul li{
     font-size: 0.9rem;
-    color: rgb(163, 163, 163);
     font-weight: 400;
     border-bottom: 1px solid rgb(206, 206, 206);
     width: 50%;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+#sidebar .container .details ul li a {
+    color: rgb(77, 148, 77);
+}
+
+#sidebar .container .details ul li .subtitle-span {
+    color: rgb(163, 163, 163);
+    font-size: 0.8rem;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 #sidebar .container .socials {
     width: 30%;
-    /* background-color: blue; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
